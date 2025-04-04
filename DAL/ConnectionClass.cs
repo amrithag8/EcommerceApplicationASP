@@ -39,9 +39,18 @@ namespace DAL
             }
             cmd = new SqlCommand(sqlQuery, con);
             con.Open();
-            string i = cmd.ExecuteScalar().ToString();
+            object i = cmd.ExecuteScalar();
             con.Close();
-            return i;
+
+            if (i==null)
+            {
+                return null;
+            }
+            else
+            {
+                return i.ToString();
+            }
+            
         }
 
 

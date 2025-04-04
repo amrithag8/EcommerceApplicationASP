@@ -25,5 +25,13 @@ namespace BLL
             DataSet ds = conObj.Fn_Adapter(getProducts);
             return ds;
         }
+
+        public DataSet getSearchedProduct(string productName)
+        {
+            string PdtName = productName.ToLower();
+            string searchedProduct = "select * from Products_table where LOWER(Product_name) like '%" + PdtName + "%' ";
+            DataSet ds = conObj.Fn_Adapter(searchedProduct);
+            return ds;
+        }
     }
 }

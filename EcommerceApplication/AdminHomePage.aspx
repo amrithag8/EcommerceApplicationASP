@@ -7,6 +7,7 @@
         .auto-style2 {
             text-align: left;
             width: 215px;
+            height: 27px;
         }
         .auto-style3 {
             height: 27px;
@@ -29,6 +30,13 @@
             width: 200px;
             height: 27px;
         }
+        .auto-style9 {
+            width: 194px;
+        }
+        .auto-style10 {
+            width: 194px;
+            height: 27px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -39,7 +47,7 @@
             <td class="auto-style1">&nbsp;</td>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -55,27 +63,39 @@
             <td class="auto-style7">
                 <asp:ImageButton ID="ImageButton3" runat="server" Height="114px" ImageUrl="~/assets/addProduct.png" Width="112px" PostBackUrl="~/AddProduct.aspx" />
             </td>
-            <td>
+            <td class="auto-style9">
                 <asp:ImageButton ID="ImageButton4" runat="server" Height="114px" ImageUrl="~/assets/editProducts.png" Width="112px" PostBackUrl="~/EditProductsPage.aspx" />
             </td>
-            <td>&nbsp;</td>
+            <td>
+                <asp:ImageButton ID="ImageButton5" runat="server" Height="114px" ImageUrl="~/assets/ordersicon.jpg" PostBackUrl="~/AllOrdersPage.aspx" Width="112px" />
+            </td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style3"></td>
+            <td class="auto-style3"></td>
             <td class="auto-style2">
                 <asp:LinkButton ID="LinkButton1" runat="server" PostBackUrl="~/AddCategory.aspx">Add Category</asp:LinkButton>
             </td>
-            <td class="auto-style5">
+            <td class="auto-style6">
                 <asp:LinkButton ID="LinkButton2" runat="server">Edit Category</asp:LinkButton>
             </td>
-            <td class="auto-style7">
+            <td class="auto-style8">
                 <asp:LinkButton ID="LinkButton3" runat="server">Add Products</asp:LinkButton>
             </td>
-            <td>
+            <td class="auto-style10">
                 <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/AddProduct.aspx">Edit Products</asp:LinkButton>
             </td>
+            <td class="auto-style3">All Orders</td>
+            <td class="auto-style3"></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style1">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -85,17 +105,7 @@
             <td class="auto-style1">&nbsp;</td>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td class="auto-style1">&nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -105,9 +115,9 @@
             <td class="auto-style4"></td>
             <td class="auto-style6"></td>
             <td class="auto-style8"></td>
+            <td class="auto-style10"></td>
             <td class="auto-style3"></td>
             <td class="auto-style3"></td>
-            <td class="auto-style3"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
@@ -115,17 +125,7 @@
             <td class="auto-style1">&nbsp;</td>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td class="auto-style1">&nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -135,7 +135,7 @@
             <td class="auto-style1">&nbsp;</td>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
@@ -145,7 +145,17 @@
             <td class="auto-style1">&nbsp;</td>
             <td class="auto-style5">&nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td class="auto-style1">&nbsp;</td>
+            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
         </tr>

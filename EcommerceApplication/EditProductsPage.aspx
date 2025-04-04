@@ -33,9 +33,6 @@
                             </ItemTemplate>
                         </asp:TemplateField>
                         <asp:TemplateField HeaderText="Category ID">
-                            <EditItemTemplate>
-                                <asp:TextBox ID="txtCategoryID" runat="server" Text='<%# Eval("Category_ID") %>'></asp:TextBox>
-                            </EditItemTemplate>
                             <HeaderTemplate>
                                 Category ID
                             </HeaderTemplate>

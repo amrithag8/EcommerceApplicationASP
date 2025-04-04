@@ -9,11 +9,11 @@
             height: 27px;
         }
         .auto-style3 {
-            width: 99px;
+            width: 356px;
         }
         .auto-style4 {
             height: 27px;
-            width: 99px;
+            width: 356px;
         }
         .auto-style5 {
             width: 1466px;
@@ -39,8 +39,8 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style3">All Categories</td>
-            <td class="auto-style1">&nbsp;</td>
+            <td class="auto-style3">&nbsp;</td>
+            <td class="auto-style1">All Categories</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -64,6 +64,8 @@
         </tr>
         <tr>
             <td class="auto-style3">
+                &nbsp;</td>
+            <td class="auto-style5">
                 <asp:DataList ID="DataList1" runat="server" CellSpacing="40" RepeatColumns="5" Width="200px">
                     <ItemTemplate>
                         <table class="w-100">
@@ -92,8 +94,6 @@
                     </ItemTemplate>
                 </asp:DataList>
             </td>
-            <td class="auto-style5">
-                &nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

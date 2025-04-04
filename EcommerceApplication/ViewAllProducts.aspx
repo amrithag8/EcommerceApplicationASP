@@ -108,7 +108,8 @@
         <tr>
             <td class="auto-style3">
                 &nbsp;</td>
-            <td class="auto-style5">&nbsp;</td>
+            <td class="auto-style5">
+                &nbsp;</td>
             <td class="auto-style7">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>

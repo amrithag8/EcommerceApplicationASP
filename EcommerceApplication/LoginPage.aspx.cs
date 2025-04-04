@@ -29,10 +29,12 @@ namespace EcommerceApplication
                     string logType = logObj.getLogType(txtUsername.Text, txtPassword.Text);
                     if (logType == "admin")
                     {
+                        Session["logtype"] = "admin";
                         Response.Redirect("AdminHomePage.aspx");
                     }
                     else if(logType == "user")
                     {
+                        Session["logtype"] = "user";
                         Response.Redirect("UserHomePage.aspx");
                     }
                 }
